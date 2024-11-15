@@ -184,15 +184,16 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="10dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/fuzzy_bubbles_bold"
                 android:text="Exit" />
 
+
             <Button
                 android:id="@+id/buttonrestart"
-                android:layout_width="10dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/fuzzy_bubbles_bold"

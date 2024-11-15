@@ -214,9 +214,14 @@
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
         tools:layout_editor_absoluteX="0dp">
 
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
         <Button
             android:id="@+id/buttonExit"
-            android:layout_width="10dp"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/fuzzy_bubbles_bold"
@@ -225,13 +230,18 @@
 
         <Button
             android:id="@+id/buttonRestarted"
-            android:layout_width="10dp"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
 
             android:layout_weight="1"
             android:fontFamily="@font/fuzzy_bubbles_bold"
             android:text="Restart"
             android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <TextView
