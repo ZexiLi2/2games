@@ -8,9 +8,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="419dp"
+        android:layout_height="139dp"
+        android:background="#ECFFC9"
+        android:backgroundTint="#CEFFBB"
+        android:fontFamily="@font/fuzzy_bubbles_bold"
+        android:gravity="center"
         android:text="Multijocs"
+        android:textSize="44sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="150dp" />
+        app:layout_constraintGuide_begin="187dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -43,12 +48,13 @@
         android:layout_height="175dp"
         android:layout_marginTop="32dp"
         android:contentDescription="Memory"
+        android:outlineProvider="none"
         android:src="@drawable/memory_2"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-         />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imageButtonTic"

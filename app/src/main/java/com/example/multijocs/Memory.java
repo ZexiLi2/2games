@@ -171,7 +171,7 @@ public class Memory extends AppCompatActivity {
                         Toast toast = Toast.makeText(getApplicationContext(), "You won!", Toast.LENGTH_LONG);
                         toast.show();
                     } else {
-                        Toast toast = Toast.makeText(getApplicationContext(), "You have dementia!", Toast.LENGTH_LONG);
+                        Toast toast = Toast.makeText(getApplicationContext(), "You (might) have dementia!", Toast.LENGTH_LONG);
                         toast.show();
                     }
 

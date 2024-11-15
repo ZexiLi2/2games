@@ -5,17 +5,19 @@
     android:id="@+id/tac"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
     <TextView
         android:id="@+id/EndTextW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/fuzzy_bubbles_bold"
         android:text="You Won!"
         android:textSize="45dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.671" />
+        app:layout_constraintVertical_bias="0.758" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -196,17 +198,6 @@
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/EndTextW"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/toes" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
         android:layout_width="wrap_content"
@@ -227,16 +218,47 @@
             android:id="@+id/buttonExit"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
             android:layout_weight="1"
-            android:text="Exit" />
+            android:fontFamily="@font/fuzzy_bubbles_bold"
+            android:text="Exit"
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/buttonRestarted"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
 
+            android:layout_weight="1"
+            android:fontFamily="@font/fuzzy_bubbles_bold"
             android:text="Restart"
-            android:textStyle="bold"
-            android:layout_weight="1" />
+            android:textStyle="bold" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fuzzy_bubbles_bold"
+        android:text="Tic Tac Toe"
+
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="142dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="79dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
