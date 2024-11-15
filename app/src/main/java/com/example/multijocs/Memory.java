@@ -111,7 +111,6 @@ public class Memory extends AppCompatActivity {
         table[15] = btn16;
     }
 
-
     /*
      * segons
      * https://www.unilabs.es/blog/habitos-saludables/alimentos-beneficiosos-cerebro-memoria/
@@ -129,7 +128,7 @@ public class Memory extends AppCompatActivity {
                 R.drawable.spinach,
                 R.drawable.egg
         };
-        bg = R.drawable.fondo;
+        bg = R.drawable.fondo2;
     }
 
     public void loadTxt() {
